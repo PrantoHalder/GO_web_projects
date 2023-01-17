@@ -1,0 +1,9 @@
+Name :  PRANTO 
+ID :  23
+Subject :  Bangla
+Mark of subject 1 :  85
+Grade : A+
+Subject :  English
+Mark of subject 2 :  94
+Grade : A+
+------------------------------

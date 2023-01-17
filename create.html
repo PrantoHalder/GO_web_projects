@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+</head>
+<body>
+    <form action="/home/create/store" method="post">
+         <label for="name">Name </label>
+         <input type="text" name="name">
+         <label for="ID">ID </label>
+         <input type="number" name="ID">
+         <br>
+         <br>
+         <label for="sub1">Subject 1 </label>
+         <input type="text" name="sub1">
+         <label for="mark1">Mark </label>
+         <input type="number" name="mark1">
+         <br>
+         <br>
+         <label for="sub1">Subject 2 </label>
+         <input type="text" name="sub2">
+         <label for="mark2">Mark </label>
+         <input type="number" name="mark2">
+         <br>
+         <p style="color: crimson;">{{.Message}}</p>
+         <button>Submit</button>
+    </form>
+    <form action="/home/UserList" method="post">
+        <br>
+        <button>User list</button>
+    </form>
+    <form action="/home" method="post">
+        <br>
+        <button>Back</button>
+    </form>
+</body>
+</html>
